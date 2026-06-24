@@ -2,12 +2,12 @@
 #include <string.h>
 
 int main() {
-    char isimler[10][50]; // 10 kişi kapasiteli rehber
+    char isimler[10][50]; // Phone directory with a capacity of 10 people
     char numaralar[10][20];
     int kayitSayisi = 0;
     int secim;
 
-    while(1) { // Program kullanıcı çıkana kadar döner
+    while(1) { // The program keeps running until the user exits
         printf("\n--- TELEFON REHBERI ---\n");
         printf("1. Yeni Kayit Ekle\n");
         printf("2. Rehberi Listele\n");
